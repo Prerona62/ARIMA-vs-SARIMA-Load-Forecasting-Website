@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "Hour 1",
+    "forecast": 1.8179841622
+  },
+  {
+    "timestamp": "Hour 2",
+    "forecast": 1.8118721369
+  },
+  {
+    "timestamp": "Hour 3",
+    "forecast": 1.9341372782
+  },
+  {
+    "timestamp": "Hour 4",
+    "forecast": 2.1221290532
+  },
+  {
+    "timestamp": "Hour 5",
+    "forecast": 2.158647127
+  },
+    {
+    "timestamp": "Hour 6",
+    "forecast": 2.192212734
+  },
+    {
+    "timestamp": "Hour 7",
+    "forecast": 2.0121286032
+  },
+    {
+    "timestamp": "Hour 8",
+    "forecast": 1.8321290532
+  }
+]

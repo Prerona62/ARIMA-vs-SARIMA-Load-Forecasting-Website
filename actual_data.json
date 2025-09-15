@@ -1,0 +1,10 @@
+[
+  { "timestamp": "Hour 1", "forecast": 1.83 },
+  { "timestamp": "Hour 2", "forecast": 1.81 },
+  { "timestamp": "Hour 3", "forecast": 1.95 },
+  { "timestamp": "Hour 4", "forecast": 2.10 },
+  { "timestamp": "Hour 5", "forecast": 2.14 },
+  { "timestamp": "Hour 6", "forecast": 2.18 },
+  { "timestamp": "Hour 7", "forecast": 2.01 },
+  { "timestamp": "Hour 8", "forecast": 1.84 }
+]

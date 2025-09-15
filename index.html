@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Load Forecasting Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Load Forecasting Dashboard</h1>
+    <p>Using ARIMA and SARIMA with Real-Time IoT Monitoring</p>
+  </header>
+
+  <section id="live-readings">
+    <h2>Live Electrical Parameters </h2>
+    <div class="readings-grid">
+      <div><strong>Voltage:</strong> <span id="voltage">230</span> V</div>
+      <div><strong>Current:</strong> <span id="current">5.2</span> A</div>
+      <div><strong>Power:</strong> <span id="power">1200</span> W</div>
+      <div><strong>Energy:</strong> <span id="energy">2.5</span> kWh</div>
+      <div><strong>Frequency:</strong> <span id="frequency">50</span> Hz</div>
+      <div><strong>Power Factor:</strong> <span id="pf">0.98</span></div>
+    </div>
+  </section>
+
+  <section id="forecast-section">
+    <h2>Load Forecast Comparison</h2>
+    <div class="chart-grid">
+      <div>
+        <h3>ARIMA Forecast for Market Premises</h3>
+        <canvas id="arimaChart"></canvas>
+      </div>
+      <div>
+        <h3>SARIMA Forecast for Market Premises</h3>
+        <canvas id="sarimaChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section id="comparison-table">
+    <h2>Model Accuracy Comparison</h2>
+    <table>
+      <tr>
+        <th>Metric</th>
+        <th>ARIMA</th>
+        <th>SARIMA</th>
+      </tr>
+      <tr>
+        <td>MAE</td>
+        <td>45.34</td>
+        <td><strong>13.18</strong></td>
+      </tr>
+      <tr>
+        <td>RMSE</td>
+        <td>50.89</td>
+        <td><strong>18.23</strong></td>
+      </tr>
+
+      <tr>
+        <td>Handles Seasonality</td>
+        <td>No</td>
+        <td><strong>Yes</strong></td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="system-overview">
+    <h2>System Architecture</h2>
+    <p>(Block Diagram of Our Hardware Model)</p>
+    <img src="Block Diagram.png" alt="System Diagram" style="max-width: 50%; border-radius: 5px;">
+  </section>
+
+  <section id="features-box">
+    <h2>Key Features</h2>
+    <ul>
+      <li>📡 Real-time sensor data monitoring</li>
+      <li>📈 Dual-model forecasting: ARIMA and SARIMA</li>
+      <li>💾 Firebase integration (cloud data storage)</li>
+      <li>🧠 AI-based prediction with time-series models</li>
+      <li>🔍 Easy comparison and visualization</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Sustainovate | B.Tech Final Year Project | Techno International New Town</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
