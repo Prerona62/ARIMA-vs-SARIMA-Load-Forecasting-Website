@@ -52,5 +52,5 @@ Check out the project in action here:
 - Clear comparison between ARIMA and SARIMA models  
 
 
-✨ This project blends **IoT hardware, cloud storage, and time-series forecasting** into one practical solution for energy management in commercial facilities.  
+This project blends **IoT hardware, cloud storage, and time-series forecasting** into one practical solution for energy management in commercial facilities.  
 
